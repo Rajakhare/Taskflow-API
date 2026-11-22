@@ -9,7 +9,7 @@ from alembic import context
 
 from app.core.config import settings
 from app.core.database import Base
-from app.models import user
+from app.models import User, RefreshToken
 
 
 # this is the Alembic Config object, which provides
