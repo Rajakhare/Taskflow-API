@@ -9,8 +9,10 @@ from alembic import context
 
 from app.core.config import settings
 from app.core.database import Base
-from app.models import User, RefreshToken
-
+from app.models.user import User
+from app.models.team import TeamMember, Team
+from app.models.refresh_token import RefreshToken
+from app.models.task import Task
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
